@@ -40,9 +40,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Analytics\Common.cs" />
+    <Compile Include="Analytics\IMovingAverage.cs" />
+    <Compile Include="Analytics\Period.cs" />
+    <Compile Include="Analytics\ExponentialMovingAverage.cs" />
+    <Compile Include="Analytics\SimpleMovingAverage.cs" />
+    <Compile Include="Analytics\UnitType.cs" />
     <Compile Include="Rate.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TimeValue.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
