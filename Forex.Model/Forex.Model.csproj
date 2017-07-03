@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="Analytics\Common.cs" />
     <Compile Include="Analytics\IMovingAverage.cs" />
+    <Compile Include="Analytics\MovingAverageConvergenceDivergence.cs" />
     <Compile Include="Analytics\Period.cs" />
     <Compile Include="Analytics\ExponentialMovingAverage.cs" />
     <Compile Include="Analytics\SimpleMovingAverage.cs" />

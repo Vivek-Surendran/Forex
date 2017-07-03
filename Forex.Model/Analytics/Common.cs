@@ -11,10 +11,10 @@ namespace Forex.Analytics
 
         public static decimal EMA(decimal[] items, decimal factor)
         {
-            decimal outVal = 0;
+            decimal outVal = items.Average();
             foreach(var item in items)
             {
-                outVal = (item * factor) + outVal * (1 - factor);
+                outVal = (item - outVal) * factor + outVal;
             }
             return outVal;
         }
